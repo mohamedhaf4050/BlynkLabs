@@ -19,7 +19,7 @@ import time
 GPIO.setmode(GPIO.BCM)
 segments = [4, 17, 27, 22, 5, 6, 13, 19]  # Adjust with the actual GPIO pins connected to your 7-segment pins (A-G, DP)
 
-# Define which segments should be on to display each number (0-9)
+# Define which segments should be on to display each number (0-9) for 1 second
 # For a common cathode display, a segment is on when the pin is HIGH
 num_to_segments = {
     '0': [1, 1, 1, 1, 1, 1, 0, 0],
