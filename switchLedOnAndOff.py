@@ -4,6 +4,7 @@ import RPi.GPIO as GPIO
 
 
 # Set the GPIO pin connected to the LED
+# Connect the led to GPIO pin 17
 led_pin = 17  # Change this to your GPIO pin number
 
 # Set up GPIO
